@@ -1,0 +1,19 @@
+body{background: grey;}
+h1{
+    color: brown;
+    background: blue;
+}
+canvas{
+    border: 5px solid cyan;
+    border-radius: 20px;
+    margin-top: 50px;
+    animation: ani 5s infinite;
+}
+p{
+    font-size: 25px;
+    padding-top: 10px;
+}
+@keyframes ani {
+    from{ box-shadow: 1px 1px 38px blue}
+    to{ box-shadow: 1px 1px 80px cyan }
+}
